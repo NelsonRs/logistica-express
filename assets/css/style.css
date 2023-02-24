@@ -1,1 +1,59 @@
-@import url(/assets/css/reset/style.css);/*# sourceMappingURL=style.css.map */
+@import url(/assets/css/reset/style.css);
+nav {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 2rem;
+}
+nav .nav-it-logo {
+  width: 33.3%;
+}
+nav .nav-it-link {
+  display: inherit;
+  justify-content: flex-end;
+  width: 33.3%;
+}
+nav .nav-it-link a {
+  padding: 0 0.5rem;
+}
+nav .nav-it-access {
+  display: inherit;
+  justify-content: flex-end;
+  width: 33.3%;
+}
+nav .nav-it-access a {
+  padding: 0.5rem 1.5rem;
+  background: #EEEEEE;
+  border-radius: 5px;
+}
+nav .nav-it-access a:hover {
+  background: #DDDDDD;
+}
+
+.banner-hero {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+}
+.banner-hero img {
+  width: 100%;
+  height: 100vh;
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  filter: brightness(0.7) sepia(0.5);
+  background-attachment: fixed;
+}
+.banner-hero p {
+  position: absolute;
+  color: var(--white);
+}
+.banner-hero p:nth-of-type(1) {
+  font-size: 8rem;
+  font-weight: 600;
+}
+.banner-hero p:nth-of-type(2) {
+  top: 60vh;
+  font-size: 1.5rem;
+}/*# sourceMappingURL=style.css.map */
