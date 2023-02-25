@@ -1,15 +1,16 @@
 @import url(/assets/css/reset/style.css);
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100;300;400;500;600;700;800;900&display=swap");
 nav {
   display: flex;
   align-items: center;
-  padding: 0.5rem 2rem;
+  padding: 1rem 2rem;
 }
 nav .nav-it-logo {
   width: 33.3%;
 }
 nav .nav-it-link {
   display: inherit;
-  justify-content: flex-end;
+  justify-content: center;
   width: 33.3%;
 }
 nav .nav-it-link a {
@@ -42,8 +43,12 @@ nav .nav-it-access a:hover {
   border-radius: 10px;
   -o-object-fit: cover;
      object-fit: cover;
-  filter: brightness(0.7) sepia(0.5);
+  filter: brightness(0.7) contrast(1.1) blur(2px);
   background-attachment: fixed;
+  transition: filter 2s;
+}
+.banner-hero img:hover {
+  filter: brightness(0.7) contrast(1.1) blur(0px);
 }
 .banner-hero p {
   position: absolute;
@@ -56,4 +61,5 @@ nav .nav-it-access a:hover {
 .banner-hero p:nth-of-type(2) {
   top: 60vh;
   font-size: 1.5rem;
+  font-weight: 300;
 }/*# sourceMappingURL=style.css.map */

@@ -1,7 +1,7 @@
 :root {
-  --black:#1C1C1C;
+  --black:#04080F;
   --white:#FFFFFF;
-  --primary:#CE111B;
+  --primary:#FEF02F;
   --secondary:#DDDDDD;
   --on-secondary:#F5F5F5;
   --tertiary:#a1a1a1;
@@ -28,7 +28,7 @@ summary, time, mark, audio, video, button {
   font-size: 100%;
   text-decoration: none;
   font-weight: unset;
-  font-family: "samsung-regular";
+  font-family: "Lexend";
   -webkit-font-smoothing: antialiased;
   font-smooth: antialiased;
   vertical-align: baseline;
